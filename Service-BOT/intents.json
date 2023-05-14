@@ -1,0 +1,37 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hi", "sup", "hello", "hey", "howdy"],
+        "responses": ["Hi there!", "Hello!", "Hey there!"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["ciao", "bbye", "byeee", "bye", "see ya", "goodbye!", "see you later", "cya"],
+        "responses": ["Bye!", "See you later!", "Cya"]
+    },
+    {
+        "tag": "aboutAI",
+        "patterns": ["who are you", "what is your name", "what's your name", "what are you", "Are you a bot", "Are you a human", "Are you human", "Are you a robot", "Are you a Ujjwal's ChatBot", "Are you ReflectAI", "Are you Ujjwal's AI", "Are you an AI"],
+        "responses": ["I'm a Ujjwal's ChatBot!, My name is ReflectAI", "My name is ReflectAI", "I am an AI", "I am an AI ChatBot", "I am ReflectAI"]
+    },
+    {
+        "tag": "aboutOwner",
+        "patterns": ["Who is Ujjwal?", "Ujjwal", "Who is your owner", "owner?", "owner", "Who is your creator?", "creator"],
+        "responses": ["Ujjwal is a passionate and motivated student pursuing his dreams in Security, DevOps and Administration", "Ujjwal is a Senior Student at Arizona State University"]
+    },
+    {
+        "tag": "GitHub",
+        "patterns": ["GitHub?", "Progam?", "Where can I see all his code?", "Where can I see Ujjwal's program", "Can you provide a link to Ujjwal's GitHub", "Can you give me his github link?", "Github link"],
+        "responses": ["https://github.com/Great-Wasabi", "https://github.com/GreatWasabi"]
+    },
+    {
+        "tag": "LinkedIn",
+        "patterns": ["LinkedIn?", "Profile?", "Where can I see his profile?", "Where can I see Ujjwal's LinkedIn", "Can you provide a link to Ujjwal's LinkedIn", "Can you give me his LinkedIn link?", "LinkedIn link"],
+        "responses": ["https://www.linkedin.com/in/ujjwal-baranwal-asu/"]
+    },
+    {
+        "tag": "Contact",
+        "patterns": ["Contact?", "How can I contact him", "Where can I see his contact information?", "Where can I see Ujjwal's Email ID?", "Can you provide Ujjwal's Mail ID", "Can you give me his contact information?", "Email ID"],
+        "responses": ["His Personal Email ID is : xxx@yyy.com"]
+    }
+]}
